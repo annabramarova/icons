@@ -1,0 +1,49 @@
+ body {
+        margin: 0;
+        padding: 40px 0;
+        background-color: #191d1f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100svh;
+        font-family: Tahoma, sans-serif;
+      }
+      .wrap {
+        position: relative;
+        max-width: 620px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .icon {
+        cursor: pointer;
+        width: 56px;
+      }
+
+      .circle-group {
+        transform-origin: center;
+        animation: none;
+        transition: all 1s ease-in-out;
+      }
+
+      .man2 {
+        opacity: 0;
+      }
+
+      .man2,
+      .man1 {
+        transition: all 0.4s ease-in-out;
+      }
+
+      .icon:hover .circle-group {
+        transform: rotate(400deg);
+      }
+
+      .icon:hover .man1 {
+        opacity: 0;
+      }
+
+      .icon:hover .man2 {
+        opacity: 1;
+      }

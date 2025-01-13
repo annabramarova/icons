@@ -86,11 +86,11 @@
       }
 
       .card2:hover .rocket-tail {
-        animation: rocket-tail 2s ease-in-out forwards;
+        animation: rocket-tail 1.5s ease-in-out forwards;
       }
 
       .card2:hover .rocket2 {
-        animation: rocket-arrival 1.5s ease-in-out forwards;
+        animation: rocket-arrival 1.3s ease-in-out forwards;
         display: block;
       }
 
